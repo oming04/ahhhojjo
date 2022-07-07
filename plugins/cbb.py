@@ -13,7 +13,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text=f"<b>Tentang Bot ini:\n\n • Owner: @{OWNER}\n • Channel: @{CHANNEL}\n • Group: @{GROUP}</b>\n",
+            ext=f"<b>📚 ᴛᴇɴᴛᴀɴɢ ʙᴏᴛ ɪɴɪ 📚\n\n☕ OWNER : <a href='tg://settings'>KEPO YA?</a>\n☕ MAU BOT KAYA GINI : <a href='https://t.me/kntl99999'>PC AJA</a></b>\n",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("• ᴛᴜᴛᴜᴘ •", callback_data="close")]]
