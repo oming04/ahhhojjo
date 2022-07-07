@@ -1,4 +1,3 @@
-
 {
   "name": "File Sharing Man",
   "description": "BOT Multi Force Subs File Sharing Bot berguna untuk menyimpan file dan dapat diakses melalui link khusus",
@@ -17,10 +16,12 @@
     "OWNER": {
       "description": "Masukan Username Telegram untuk Owner BOT [ Jangan Pake @ ]",
       "value": "SilenceSpe4ks"
+      "required": false
     },
     "OWNER_ID": {
       "description": "Masukan User ID Telegram untuk Owner BOT",
       "value": "883761960"
+      "required": false
     },
     "ADMINS": {
       "description": "Masukan User ID untuk mendapatkan hak Admin BOT [Hanya dapat membuat link]",
@@ -42,6 +43,14 @@
       "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
       "value": "0"
     },
+    "FORCE_SUB_CHANNEL1": {
+      "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
+      "value": "0"
+    },
+    "FORCE_SUB_CHANNEL2": {
+      "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
+      "value": "0"
+    },
     "FORCE_SUB_GROUP": {
       "description": "Masukan ID dari Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
       "value": "0"
@@ -50,7 +59,7 @@
       "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
       "value": "0"
     },
-    "FORCE_SUB_CHANNEL1": {
+    "FORCE_SUB_GROUP2": {
       "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
       "value": "0"
     },
